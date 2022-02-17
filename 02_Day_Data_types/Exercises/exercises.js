@@ -125,7 +125,7 @@ if (sentence.includes("jargon")) {
     console.log("yeah")
 }
 
-//7)
+//7) Genera un número entre 0 y 100
 let randomNum = Math.random()         // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 101
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
@@ -139,3 +139,26 @@ let result = Math.random() * (max - min) + min;
 let roundResult = Math.floor(result)
 
 console.log(roundResult);
+
+
+//9) genera un numero entre 0 y 255
+
+let randomNum = Math.random()         // genera un número entre 0 y 0.999
+let numBtnZeroAndTen = randomNum * 206
+let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
+console.log(randomNumRoundToFloor)    // imprime el numero random entre 0 y 255
+
+//10)
+//Access the 'JavaScript' string characters using a random number.
+const str = "JavaScript"
+
+let strLength = str.length //guardo la longitud
+
+let randomNum = Math.random() * (strLength + 1)
+let randomRound = Math.floor(randomNum)
+
+for (let i = 0; i <= strLength; i++) {
+    console.log(str[randomRound])
+}
+
+//11)
